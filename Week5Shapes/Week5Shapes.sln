@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5Shapes", "Week5Shapes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccounts", "..\BankAccounts\BankAccounts.csproj", "{85B2E81E-C90E-4950-8C8D-E91263E638E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreAplication", "..\StoreAplication\StoreAplication.csproj", "{26D2E620-3A4B-439C-A221-36E131BA6AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{85B2E81E-C90E-4950-8C8D-E91263E638E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85B2E81E-C90E-4950-8C8D-E91263E638E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85B2E81E-C90E-4950-8C8D-E91263E638E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D2E620-3A4B-439C-A221-36E131BA6AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D2E620-3A4B-439C-A221-36E131BA6AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D2E620-3A4B-439C-A221-36E131BA6AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D2E620-3A4B-439C-A221-36E131BA6AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
