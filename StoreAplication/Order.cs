@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 
 namespace StoreAplication
 {
-    class Order:Customer
+    class Order :IOrder
     {
-        public string IdOrder { get; set; }
-        public Order(string name,string Id) : base(name, Id)
+    
+        public ICustomer Customer { get ; set ; }
+        public IVehicule Vehicule { get ; set; }
+        public DateTime DeliveryTime { get ; set; }
+
+        public Order(ICustomer customer, IVehicule vehicule, DateTime data)
         {
-            this.IdOrder = Id;
+            this.Customer = customer;
+            this.Vehicule = vehicule;
+            this.DeliveryTime = data;  
 
         }
-        public override void DisplayInfo()
-        {
-            
-        }
+       
     }
 }

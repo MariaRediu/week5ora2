@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26D2E620-3A4B-439C-A221-36E131BA6AFE}</ProjectGuid>
+    <ProjectGuid>{004C1B19-E08C-479F-9DEB-E305B86A7BC2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StoreAplication</RootNamespace>
-    <AssemblyName>StoreAplication</AssemblyName>
+    <RootNamespace>week6</RootNamespace>
+    <AssemblyName>week6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="ICustomer.cs" />
-    <Compile Include="IOrder.cs" />
-    <Compile Include="IProducer.cs" />
-    <Compile Include="IStore.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="Producer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IVehicule.cs" />
-    <Compile Include="Store.cs" />
-    <Compile Include="Car.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

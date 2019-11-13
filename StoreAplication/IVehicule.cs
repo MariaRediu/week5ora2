@@ -8,6 +8,10 @@ namespace StoreAplication
 {
     interface IVehicule
     {
-        void SetTimeToDelivery();
+        Producer Producer { get; set; }
+        decimal Price { get; set; }
+        string Name { get; set; }
+
+         
     }
 }

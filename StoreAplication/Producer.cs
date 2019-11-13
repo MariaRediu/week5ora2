@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace StoreAplication
 {
-   public class Producer :Customer
-    {
-        public Producer(string name,string city) : base(name,city);
+    public class Producer : IProducer
+    {  
+        public string Producer { get; set ; }
+
+        public static implicit operator Producer(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

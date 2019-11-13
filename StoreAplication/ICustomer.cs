@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace StoreAplication
 {
-    interface IOrder
+    interface ICustomer
     {
-        ICustomer Customer { get; set; }
-        IVehicule Vehicule { get; set; }
-        DateTime DeliveryTime { get; set; }
+        string Name { get; set; } 
     }
-}
 }

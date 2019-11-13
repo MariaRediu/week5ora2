@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace StoreAplication
 {
-   public abstract class Customer 
+   public  class Customer :ICustomer
     {
-        public string Name { get; set; }
-        public string City { get; set; }
-        public Customer(string name,string city)
+        public string Name { get; set; } 
+       
+        public Customer(string name)
         {
             this.Name = name;
-            this.City = city;
-
+          
         }
-
-        public abstract void DisplayInfo();
     }
 }

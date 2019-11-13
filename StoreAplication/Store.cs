@@ -6,16 +6,27 @@ using System.Threading.Tasks;
 
 namespace StoreAplication
 {
-   public class Store:Customer
+    public class Store : IStore
     {
-        public Store(string name,string city) : base(name, city)
+        public string Name { get; set; }
+        public string City { get; set; }
+        public Store(string name,string city)
         {
+            this.Name = name;
+            this.City = city;
 
         }
-        public override void DisplayInfo()
+
+        public void CancelOrder(IOrder order)
         {
-            Console.WriteLine("\nThe name of the store is:" + Name);
-            Console.WriteLine("The city of the car is:" + City);
+            Console.WriteLine("The delivery is annulate");
+          
+        }
+
+        public IOrder EnterandBuy(ICustomer costumer, IProducer producer, IVehicule vehicule)
+        {
+            Console.WriteLine($"{customer.Name} enter to {this.Name}");
+            Console.WriteLine(($"{customer.Name} orders  { vehicule.Name}");
         }
     }
 }
