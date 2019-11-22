@@ -17,6 +17,8 @@ namespace StoreAplication
 
         }
 
+
+
         public void CancelOrder(IOrder order)
         {
             Console.WriteLine("The delivery is annulate");

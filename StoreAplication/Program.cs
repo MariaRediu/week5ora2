@@ -22,13 +22,23 @@ namespace StoreAplication
             };
 
             IStore skoda = new Store("Skoda","Bucuresti");
-            IVehicule fabia = new Car  
+            IVehicule fabia = new Car
             {
                 Producer = "Skoda",
                 Name = "Fabia",
                 Price = 15000,
 
             };
+
+
+            Car a = new Car();
+            Car b = Car.Clone();
+
+            a.Producer = "Skoda";
+            a.Name = "Fabia";
+            a.Price = 15000;
+
+
             IOrder focusOrder = ford.EnterandBuy(alex, focus);
 
             IOrder skodaOrder = skoda.EnterandBuy(alex, fabia);
